@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9E7A0741B0A494E00267EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7A0731B0A494E00267EFD /* AppDelegate.swift */; };
+		E9E7A0761B0A494E00267EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7A0751B0A494E00267EFD /* ViewController.swift */; };
+		E9E7A0791B0A494E00267EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0771B0A494E00267EFD /* Main.storyboard */; };
+		E9E7A07B1B0A494E00267EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A07A1B0A494E00267EFD /* Images.xcassets */; };
+		E9E7A07E1B0A494E00267EFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A07C1B0A494E00267EFD /* LaunchScreen.xib */; };
+		E9E7A08A1B0A494E00267EFD /* Horror_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7A0891B0A494E00267EFD /* Horror_WatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9E7A0841B0A494E00267EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E7A0661B0A494D00267EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E7A06D1B0A494E00267EFD;
+			remoteInfo = "Horror Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9E7A06E1B0A494E00267EFD /* Horror Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horror Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E7A0721B0A494E00267EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E7A0731B0A494E00267EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9E7A0751B0A494E00267EFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9E7A0781B0A494E00267EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9E7A07A1B0A494E00267EFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9E7A07D1B0A494E00267EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E9E7A0831B0A494E00267EFD /* Horror WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Horror WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E7A0881B0A494E00267EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E7A0891B0A494E00267EFD /* Horror_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horror_WatchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9E7A06B1B0A494E00267EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E7A0801B0A494E00267EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9E7A0651B0A494D00267EFD = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0701B0A494E00267EFD /* Horror Watch */,
+				E9E7A0861B0A494E00267EFD /* Horror WatchTests */,
+				E9E7A06F1B0A494E00267EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9E7A06F1B0A494E00267EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A06E1B0A494E00267EFD /* Horror Watch.app */,
+				E9E7A0831B0A494E00267EFD /* Horror WatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E7A0701B0A494E00267EFD /* Horror Watch */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0731B0A494E00267EFD /* AppDelegate.swift */,
+				E9E7A0751B0A494E00267EFD /* ViewController.swift */,
+				E9E7A0771B0A494E00267EFD /* Main.storyboard */,
+				E9E7A07A1B0A494E00267EFD /* Images.xcassets */,
+				E9E7A07C1B0A494E00267EFD /* LaunchScreen.xib */,
+				E9E7A0711B0A494E00267EFD /* Supporting Files */,
+			);
+			path = "Horror Watch";
+			sourceTree = "<group>";
+		};
+		E9E7A0711B0A494E00267EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0721B0A494E00267EFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9E7A0861B0A494E00267EFD /* Horror WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0891B0A494E00267EFD /* Horror_WatchTests.swift */,
+				E9E7A0871B0A494E00267EFD /* Supporting Files */,
+			);
+			path = "Horror WatchTests";
+			sourceTree = "<group>";
+		};
+		E9E7A0871B0A494E00267EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0881B0A494E00267EFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9E7A06D1B0A494E00267EFD /* Horror Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E7A08D1B0A494E00267EFD /* Build configuration list for PBXNativeTarget "Horror Watch" */;
+			buildPhases = (
+				E9E7A06A1B0A494E00267EFD /* Sources */,
+				E9E7A06B1B0A494E00267EFD /* Frameworks */,
+				E9E7A06C1B0A494E00267EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Horror Watch";
+			productName = "Horror Watch";
+			productReference = E9E7A06E1B0A494E00267EFD /* Horror Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9E7A0821B0A494E00267EFD /* Horror WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E7A0901B0A494E00267EFD /* Build configuration list for PBXNativeTarget "Horror WatchTests" */;
+			buildPhases = (
+				E9E7A07F1B0A494E00267EFD /* Sources */,
+				E9E7A0801B0A494E00267EFD /* Frameworks */,
+				E9E7A0811B0A494E00267EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E7A0851B0A494E00267EFD /* PBXTargetDependency */,
+			);
+			name = "Horror WatchTests";
+			productName = "Horror WatchTests";
+			productReference = E9E7A0831B0A494E00267EFD /* Horror WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9E7A0661B0A494D00267EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "We Make Apps";
+				TargetAttributes = {
+					E9E7A06D1B0A494E00267EFD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E9E7A0821B0A494E00267EFD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E9E7A06D1B0A494E00267EFD;
+					};
+				};
+			};
+			buildConfigurationList = E9E7A0691B0A494D00267EFD /* Build configuration list for PBXProject "Horror Watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9E7A0651B0A494D00267EFD;
+			productRefGroup = E9E7A06F1B0A494E00267EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E7A06D1B0A494E00267EFD /* Horror Watch */,
+				E9E7A0821B0A494E00267EFD /* Horror WatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E7A06C1B0A494E00267EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E7A0791B0A494E00267EFD /* Main.storyboard in Resources */,
+				E9E7A07E1B0A494E00267EFD /* LaunchScreen.xib in Resources */,
+				E9E7A07B1B0A494E00267EFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E7A0811B0A494E00267EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9E7A06A1B0A494E00267EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E7A0761B0A494E00267EFD /* ViewController.swift in Sources */,
+				E9E7A0741B0A494E00267EFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E7A07F1B0A494E00267EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E7A08A1B0A494E00267EFD /* Horror_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9E7A0851B0A494E00267EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E7A06D1B0A494E00267EFD /* Horror Watch */;
+			targetProxy = E9E7A0841B0A494E00267EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9E7A0771B0A494E00267EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E7A0781B0A494E00267EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9E7A07C1B0A494E00267EFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E7A07D1B0A494E00267EFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9E7A08B1B0A494E00267EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9E7A08C1B0A494E00267EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9E7A08E1B0A494E00267EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Horror Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9E7A08F1B0A494E00267EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Horror Watch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9E7A0911B0A494E00267EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Horror WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horror Watch.app/Horror Watch";
+			};
+			name = Debug;
+		};
+		E9E7A0921B0A494E00267EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Horror WatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horror Watch.app/Horror Watch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9E7A0691B0A494D00267EFD /* Build configuration list for PBXProject "Horror Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E7A08B1B0A494E00267EFD /* Debug */,
+				E9E7A08C1B0A494E00267EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E7A08D1B0A494E00267EFD /* Build configuration list for PBXNativeTarget "Horror Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E7A08E1B0A494E00267EFD /* Debug */,
+				E9E7A08F1B0A494E00267EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9E7A0901B0A494E00267EFD /* Build configuration list for PBXNativeTarget "Horror WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E7A0911B0A494E00267EFD /* Debug */,
+				E9E7A0921B0A494E00267EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9E7A0661B0A494D00267EFD /* Project object */;
+}
