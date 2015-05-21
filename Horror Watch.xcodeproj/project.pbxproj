@@ -13,6 +13,85 @@
 		E9E7A07B1B0A494E00267EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A07A1B0A494E00267EFD /* Images.xcassets */; };
 		E9E7A07E1B0A494E00267EFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A07C1B0A494E00267EFD /* LaunchScreen.xib */; };
 		E9E7A08A1B0A494E00267EFD /* Horror_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7A0891B0A494E00267EFD /* Horror_WatchTests.swift */; };
+		E9E7A09C1B0A497300267EFD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7A09B1B0A497300267EFD /* InterfaceController.swift */; };
+		E9E7A09E1B0A497300267EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A09D1B0A497300267EFD /* Images.xcassets */; };
+		E9E7A0A21B0A497300267EFD /* Horror Watch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0A11B0A497300267EFD /* Horror Watch WatchKit App.app */; };
+		E9E7A0AA1B0A497300267EFD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0A81B0A497300267EFD /* Interface.storyboard */; };
+		E9E7A0AC1B0A497300267EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0AB1B0A497300267EFD /* Images.xcassets */; };
+		E9E7A0AF1B0A497300267EFD /* Horror Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E9E7A0971B0A497300267EFD /* Horror Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9E7A0B81B0A4AB500267EFD /* PrankTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7A0B71B0A4AB500267EFD /* PrankTableRow.swift */; };
+		E9E7A1011B0A4C1800267EFD /* bacdeth1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0B91B0A4C1700267EFD /* bacdeth1.wav */; };
+		E9E7A1021B0A4C1800267EFD /* bacidle1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0BA1B0A4C1700267EFD /* bacidle1.wav */; };
+		E9E7A1031B0A4C1800267EFD /* bacsite2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0BB1B0A4C1700267EFD /* bacsite2.wav */; };
+		E9E7A1041B0A4C1800267EFD /* bgrapple_impact.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0BC1B0A4C1700267EFD /* bgrapple_impact.wav */; };
+		E9E7A1051B0A4C1800267EFD /* bodstrk12.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0BD1B0A4C1700267EFD /* bodstrk12.wav */; };
+		E9E7A1061B0A4C1800267EFD /* bodstrk13.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0BE1B0A4C1700267EFD /* bodstrk13.wav */; };
+		E9E7A1071B0A4C1800267EFD /* branchrp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0BF1B0A4C1700267EFD /* branchrp.wav */; };
+		E9E7A1081B0A4C1800267EFD /* chbmdie.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C01B0A4C1700267EFD /* chbmdie.wav */; };
+		E9E7A1091B0A4C1800267EFD /* chrtsght1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C11B0A4C1700267EFD /* chrtsght1.wav */; };
+		E9E7A10A1B0A4C1800267EFD /* chrtwoun1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C21B0A4C1700267EFD /* chrtwoun1.wav */; };
+		E9E7A10B1B0A4C1800267EFD /* consbiop2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C31B0A4C1700267EFD /* consbiop2.wav */; };
+		E9E7A10C1B0A4C1800267EFD /* conschrp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C41B0A4C1700267EFD /* conschrp.wav */; };
+		E9E7A10D1B0A4C1800267EFD /* conswoun1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C51B0A4C1700267EFD /* conswoun1.wav */; };
+		E9E7A10E1B0A4C1800267EFD /* conswoun2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C61B0A4C1700267EFD /* conswoun2.wav */; };
+		E9E7A10F1B0A4C1800267EFD /* singleroar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C71B0A4C1700267EFD /* singleroar.mp3 */; };
+		E9E7A1101B0A4C1800267EFD /* criticalDMG.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C81B0A4C1700267EFD /* criticalDMG.wav */; };
+		E9E7A1111B0A4C1800267EFD /* DeamonDie.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0C91B0A4C1700267EFD /* DeamonDie.wav */; };
+		E9E7A1121B0A4C1800267EFD /* Dragon00.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0CA1B0A4C1700267EFD /* Dragon00.wav */; };
+		E9E7A1131B0A4C1800267EFD /* Dragon01.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0CB1B0A4C1700267EFD /* Dragon01.wav */; };
+		E9E7A1141B0A4C1800267EFD /* Ghost.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0CC1B0A4C1700267EFD /* Ghost.wav */; };
+		E9E7A1151B0A4C1800267EFD /* growl1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0CD1B0A4C1700267EFD /* growl1.wav */; };
+		E9E7A1161B0A4C1800267EFD /* growl2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0CE1B0A4C1700267EFD /* growl2.wav */; };
+		E9E7A1171B0A4C1800267EFD /* HachaRanaOK.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0CF1B0A4C1700267EFD /* HachaRanaOK.wav */; };
+		E9E7A1181B0A4C1800267EFD /* hell_knight_exhale02.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D01B0A4C1700267EFD /* hell_knight_exhale02.wav */; };
+		E9E7A1191B0A4C1800267EFD /* Hell_Knight_Inhale02.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D11B0A4C1700267EFD /* Hell_Knight_Inhale02.wav */; };
+		E9E7A11A1B0A4C1800267EFD /* hiss_beast_screech.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D21B0A4C1700267EFD /* hiss_beast_screech.mp3 */; };
+		E9E7A11B1B0A4C1800267EFD /* HITGIBS.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D31B0A4C1700267EFD /* HITGIBS.wav */; };
+		E9E7A11C1B0A4C1800267EFD /* HKight_Attack_Melee01.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D41B0A4C1700267EFD /* HKight_Attack_Melee01.wav */; };
+		E9E7A11D1B0A4C1800267EFD /* hoppflap.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D51B0A4C1700267EFD /* hoppflap.wav */; };
+		E9E7A11E1B0A4C1800267EFD /* hoppidle1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D61B0A4C1700267EFD /* hoppidle1.wav */; };
+		E9E7A11F1B0A4C1800267EFD /* hoppidle2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D71B0A4C1800267EFD /* hoppidle2.wav */; };
+		E9E7A1201B0A4C1800267EFD /* hoppsght.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D81B0A4C1800267EFD /* hoppsght.wav */; };
+		E9E7A1211B0A4C1800267EFD /* malo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0D91B0A4C1800267EFD /* malo2.wav */; };
+		E9E7A1221B0A4C1800267EFD /* malo3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0DA1B0A4C1800267EFD /* malo3.wav */; };
+		E9E7A1231B0A4C1800267EFD /* malo4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0DB1B0A4C1800267EFD /* malo4.wav */; };
+		E9E7A1241B0A4C1800267EFD /* malo5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0DC1B0A4C1800267EFD /* malo5.wav */; };
+		E9E7A1251B0A4C1800267EFD /* MEET01_22.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0DD1B0A4C1800267EFD /* MEET01_22.wav */; };
+		E9E7A1261B0A4C1800267EFD /* Pain3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0DE1B0A4C1800267EFD /* Pain3.wav */; };
+		E9E7A1271B0A4C1800267EFD /* PDMG_MORR1_44.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0DF1B0A4C1800267EFD /* PDMG_MORR1_44.wav */; };
+		E9E7A1281B0A4C1800267EFD /* PDMG_MORR2_44.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E01B0A4C1800267EFD /* PDMG_MORR2_44.wav */; };
+		E9E7A1291B0A4C1800267EFD /* pinky_drags_body_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E11B0A4C1800267EFD /* pinky_drags_body_01.wav */; };
+		E9E7A12A1B0A4C1800267EFD /* pinky_drags_body_02.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E21B0A4C1800267EFD /* pinky_drags_body_02.wav */; };
+		E9E7A12B1B0A4C1800267EFD /* plasdie.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E31B0A4C1800267EFD /* plasdie.wav */; };
+		E9E7A12C1B0A4C1800267EFD /* Poingigigi.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E41B0A4C1800267EFD /* Poingigigi.wav */; };
+		E9E7A12D1B0A4C1800267EFD /* quenchrp2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E51B0A4C1800267EFD /* quenchrp2.wav */; };
+		E9E7A12E1B0A4C1800267EFD /* rhnodie.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E61B0A4C1800267EFD /* rhnodie.wav */; };
+		E9E7A12F1B0A4C1800267EFD /* rhnosght.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E71B0A4C1800267EFD /* rhnosght.wav */; };
+		E9E7A1301B0A4C1800267EFD /* roywbite1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E81B0A4C1800267EFD /* roywbite1.wav */; };
+		E9E7A1311B0A4C1800267EFD /* roywbite2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0E91B0A4C1800267EFD /* roywbite2.wav */; };
+		E9E7A1321B0A4C1800267EFD /* roywdie1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0EA1B0A4C1800267EFD /* roywdie1.wav */; };
+		E9E7A1331B0A4C1800267EFD /* roywdie2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0EB1B0A4C1800267EFD /* roywdie2.wav */; };
+		E9E7A1341B0A4C1800267EFD /* roywdie3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0EC1B0A4C1800267EFD /* roywdie3.wav */; };
+		E9E7A1351B0A4C1800267EFD /* roywsght2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0ED1B0A4C1800267EFD /* roywsght2.wav */; };
+		E9E7A1361B0A4C1800267EFD /* ScreamHollow.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0EE1B0A4C1800267EFD /* ScreamHollow.wav */; };
+		E9E7A1371B0A4C1800267EFD /* seadeth1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0EF1B0A4C1800267EFD /* seadeth1.wav */; };
+		E9E7A1381B0A4C1800267EFD /* slicer5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F01B0A4C1800267EFD /* slicer5.wav */; };
+		E9E7A1391B0A4C1800267EFD /* slrun.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F11B0A4C1800267EFD /* slrun.wav */; };
+		E9E7A13A1B0A4C1800267EFD /* spitdie.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F21B0A4C1800267EFD /* spitdie.wav */; };
+		E9E7A13B1B0A4C1800267EFD /* spitwoun1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F31B0A4C1800267EFD /* spitwoun1.wav */; };
+		E9E7A13C1B0A4C1800267EFD /* spitwoun2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F41B0A4C1800267EFD /* spitwoun2.wav */; };
+		E9E7A13D1B0A4C1800267EFD /* Swirl01.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F51B0A4C1800267EFD /* Swirl01.wav */; };
+		E9E7A13E1B0A4C1800267EFD /* Swirl02.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F61B0A4C1800267EFD /* Swirl02.wav */; };
+		E9E7A13F1B0A4C1800267EFD /* Swirl03.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F71B0A4C1800267EFD /* Swirl03.wav */; };
+		E9E7A1401B0A4C1800267EFD /* Swirl04.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F81B0A4C1800267EFD /* Swirl04.wav */; };
+		E9E7A1411B0A4C1800267EFD /* tankbrst.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0F91B0A4C1800267EFD /* tankbrst.wav */; };
+		E9E7A1421B0A4C1800267EFD /* tankwoun2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0FA1B0A4C1800267EFD /* tankwoun2.wav */; };
+		E9E7A1431B0A4C1800267EFD /* teleon.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0FB1B0A4C1800267EFD /* teleon.wav */; };
+		E9E7A1441B0A4C1800267EFD /* warrbite3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0FC1B0A4C1800267EFD /* warrbite3.wav */; };
+		E9E7A1451B0A4C1800267EFD /* warrdie3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0FD1B0A4C1800267EFD /* warrdie3.wav */; };
+		E9E7A1461B0A4C1800267EFD /* warrdie4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0FE1B0A4C1800267EFD /* warrdie4.wav */; };
+		E9E7A1471B0A4C1800267EFD /* warrdie5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A0FF1B0A4C1800267EFD /* warrdie5.wav */; };
+		E9E7A1481B0A4C1800267EFD /* YetiAppear.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9E7A1001B0A4C1800267EFD /* YetiAppear.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +102,35 @@
 			remoteGlobalIDString = E9E7A06D1B0A494E00267EFD;
 			remoteInfo = "Horror Watch";
 		};
+		E9E7A0A31B0A497300267EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E7A0661B0A494D00267EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E7A0A01B0A497300267EFD;
+			remoteInfo = "Horror Watch WatchKit App";
+		};
+		E9E7A0AD1B0A497300267EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E7A0661B0A494D00267EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E7A0961B0A497300267EFD;
+			remoteInfo = "Horror Watch WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9E7A0B61B0A497300267EFD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9E7A0AF1B0A497300267EFD /* Horror Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E9E7A06E1B0A494E00267EFD /* Horror Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horror Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +143,87 @@
 		E9E7A0831B0A494E00267EFD /* Horror WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Horror WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E7A0881B0A494E00267EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9E7A0891B0A494E00267EFD /* Horror_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horror_WatchTests.swift; sourceTree = "<group>"; };
+		E9E7A0971B0A497300267EFD /* Horror Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Horror Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E7A09A1B0A497300267EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E7A09B1B0A497300267EFD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E9E7A09D1B0A497300267EFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9E7A0A11B0A497300267EFD /* Horror Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horror Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E7A0A71B0A497300267EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E7A0A91B0A497300267EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E9E7A0AB1B0A497300267EFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9E7A0B71B0A4AB500267EFD /* PrankTableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrankTableRow.swift; sourceTree = "<group>"; };
+		E9E7A0B91B0A4C1700267EFD /* bacdeth1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bacdeth1.wav; sourceTree = "<group>"; };
+		E9E7A0BA1B0A4C1700267EFD /* bacidle1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bacidle1.wav; sourceTree = "<group>"; };
+		E9E7A0BB1B0A4C1700267EFD /* bacsite2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bacsite2.wav; sourceTree = "<group>"; };
+		E9E7A0BC1B0A4C1700267EFD /* bgrapple_impact.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgrapple_impact.wav; sourceTree = "<group>"; };
+		E9E7A0BD1B0A4C1700267EFD /* bodstrk12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bodstrk12.wav; sourceTree = "<group>"; };
+		E9E7A0BE1B0A4C1700267EFD /* bodstrk13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bodstrk13.wav; sourceTree = "<group>"; };
+		E9E7A0BF1B0A4C1700267EFD /* branchrp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = branchrp.wav; sourceTree = "<group>"; };
+		E9E7A0C01B0A4C1700267EFD /* chbmdie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chbmdie.wav; sourceTree = "<group>"; };
+		E9E7A0C11B0A4C1700267EFD /* chrtsght1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chrtsght1.wav; sourceTree = "<group>"; };
+		E9E7A0C21B0A4C1700267EFD /* chrtwoun1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chrtwoun1.wav; sourceTree = "<group>"; };
+		E9E7A0C31B0A4C1700267EFD /* consbiop2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = consbiop2.wav; sourceTree = "<group>"; };
+		E9E7A0C41B0A4C1700267EFD /* conschrp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = conschrp.wav; sourceTree = "<group>"; };
+		E9E7A0C51B0A4C1700267EFD /* conswoun1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = conswoun1.wav; sourceTree = "<group>"; };
+		E9E7A0C61B0A4C1700267EFD /* conswoun2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = conswoun2.wav; sourceTree = "<group>"; };
+		E9E7A0C71B0A4C1700267EFD /* singleroar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = singleroar.mp3; sourceTree = "<group>"; };
+		E9E7A0C81B0A4C1700267EFD /* criticalDMG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = criticalDMG.wav; sourceTree = "<group>"; };
+		E9E7A0C91B0A4C1700267EFD /* DeamonDie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DeamonDie.wav; sourceTree = "<group>"; };
+		E9E7A0CA1B0A4C1700267EFD /* Dragon00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dragon00.wav; sourceTree = "<group>"; };
+		E9E7A0CB1B0A4C1700267EFD /* Dragon01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dragon01.wav; sourceTree = "<group>"; };
+		E9E7A0CC1B0A4C1700267EFD /* Ghost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ghost.wav; sourceTree = "<group>"; };
+		E9E7A0CD1B0A4C1700267EFD /* growl1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = growl1.wav; sourceTree = "<group>"; };
+		E9E7A0CE1B0A4C1700267EFD /* growl2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = growl2.wav; sourceTree = "<group>"; };
+		E9E7A0CF1B0A4C1700267EFD /* HachaRanaOK.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HachaRanaOK.wav; sourceTree = "<group>"; };
+		E9E7A0D01B0A4C1700267EFD /* hell_knight_exhale02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hell_knight_exhale02.wav; sourceTree = "<group>"; };
+		E9E7A0D11B0A4C1700267EFD /* Hell_Knight_Inhale02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hell_Knight_Inhale02.wav; sourceTree = "<group>"; };
+		E9E7A0D21B0A4C1700267EFD /* hiss_beast_screech.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hiss_beast_screech.mp3; sourceTree = "<group>"; };
+		E9E7A0D31B0A4C1700267EFD /* HITGIBS.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HITGIBS.wav; sourceTree = "<group>"; };
+		E9E7A0D41B0A4C1700267EFD /* HKight_Attack_Melee01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HKight_Attack_Melee01.wav; sourceTree = "<group>"; };
+		E9E7A0D51B0A4C1700267EFD /* hoppflap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoppflap.wav; sourceTree = "<group>"; };
+		E9E7A0D61B0A4C1700267EFD /* hoppidle1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoppidle1.wav; sourceTree = "<group>"; };
+		E9E7A0D71B0A4C1800267EFD /* hoppidle2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoppidle2.wav; sourceTree = "<group>"; };
+		E9E7A0D81B0A4C1800267EFD /* hoppsght.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hoppsght.wav; sourceTree = "<group>"; };
+		E9E7A0D91B0A4C1800267EFD /* malo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = malo2.wav; sourceTree = "<group>"; };
+		E9E7A0DA1B0A4C1800267EFD /* malo3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = malo3.wav; sourceTree = "<group>"; };
+		E9E7A0DB1B0A4C1800267EFD /* malo4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = malo4.wav; sourceTree = "<group>"; };
+		E9E7A0DC1B0A4C1800267EFD /* malo5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = malo5.wav; sourceTree = "<group>"; };
+		E9E7A0DD1B0A4C1800267EFD /* MEET01_22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MEET01_22.wav; sourceTree = "<group>"; };
+		E9E7A0DE1B0A4C1800267EFD /* Pain3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pain3.wav; sourceTree = "<group>"; };
+		E9E7A0DF1B0A4C1800267EFD /* PDMG_MORR1_44.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PDMG_MORR1_44.wav; sourceTree = "<group>"; };
+		E9E7A0E01B0A4C1800267EFD /* PDMG_MORR2_44.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PDMG_MORR2_44.wav; sourceTree = "<group>"; };
+		E9E7A0E11B0A4C1800267EFD /* pinky_drags_body_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pinky_drags_body_01.wav; sourceTree = "<group>"; };
+		E9E7A0E21B0A4C1800267EFD /* pinky_drags_body_02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pinky_drags_body_02.wav; sourceTree = "<group>"; };
+		E9E7A0E31B0A4C1800267EFD /* plasdie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plasdie.wav; sourceTree = "<group>"; };
+		E9E7A0E41B0A4C1800267EFD /* Poingigigi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Poingigigi.wav; sourceTree = "<group>"; };
+		E9E7A0E51B0A4C1800267EFD /* quenchrp2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = quenchrp2.wav; sourceTree = "<group>"; };
+		E9E7A0E61B0A4C1800267EFD /* rhnodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rhnodie.wav; sourceTree = "<group>"; };
+		E9E7A0E71B0A4C1800267EFD /* rhnosght.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rhnosght.wav; sourceTree = "<group>"; };
+		E9E7A0E81B0A4C1800267EFD /* roywbite1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roywbite1.wav; sourceTree = "<group>"; };
+		E9E7A0E91B0A4C1800267EFD /* roywbite2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roywbite2.wav; sourceTree = "<group>"; };
+		E9E7A0EA1B0A4C1800267EFD /* roywdie1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roywdie1.wav; sourceTree = "<group>"; };
+		E9E7A0EB1B0A4C1800267EFD /* roywdie2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roywdie2.wav; sourceTree = "<group>"; };
+		E9E7A0EC1B0A4C1800267EFD /* roywdie3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roywdie3.wav; sourceTree = "<group>"; };
+		E9E7A0ED1B0A4C1800267EFD /* roywsght2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roywsght2.wav; sourceTree = "<group>"; };
+		E9E7A0EE1B0A4C1800267EFD /* ScreamHollow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ScreamHollow.wav; sourceTree = "<group>"; };
+		E9E7A0EF1B0A4C1800267EFD /* seadeth1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seadeth1.wav; sourceTree = "<group>"; };
+		E9E7A0F01B0A4C1800267EFD /* slicer5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slicer5.wav; sourceTree = "<group>"; };
+		E9E7A0F11B0A4C1800267EFD /* slrun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slrun.wav; sourceTree = "<group>"; };
+		E9E7A0F21B0A4C1800267EFD /* spitdie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spitdie.wav; sourceTree = "<group>"; };
+		E9E7A0F31B0A4C1800267EFD /* spitwoun1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spitwoun1.wav; sourceTree = "<group>"; };
+		E9E7A0F41B0A4C1800267EFD /* spitwoun2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spitwoun2.wav; sourceTree = "<group>"; };
+		E9E7A0F51B0A4C1800267EFD /* Swirl01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Swirl01.wav; sourceTree = "<group>"; };
+		E9E7A0F61B0A4C1800267EFD /* Swirl02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Swirl02.wav; sourceTree = "<group>"; };
+		E9E7A0F71B0A4C1800267EFD /* Swirl03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Swirl03.wav; sourceTree = "<group>"; };
+		E9E7A0F81B0A4C1800267EFD /* Swirl04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Swirl04.wav; sourceTree = "<group>"; };
+		E9E7A0F91B0A4C1800267EFD /* tankbrst.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tankbrst.wav; sourceTree = "<group>"; };
+		E9E7A0FA1B0A4C1800267EFD /* tankwoun2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tankwoun2.wav; sourceTree = "<group>"; };
+		E9E7A0FB1B0A4C1800267EFD /* teleon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = teleon.wav; sourceTree = "<group>"; };
+		E9E7A0FC1B0A4C1800267EFD /* warrbite3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warrbite3.wav; sourceTree = "<group>"; };
+		E9E7A0FD1B0A4C1800267EFD /* warrdie3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warrdie3.wav; sourceTree = "<group>"; };
+		E9E7A0FE1B0A4C1800267EFD /* warrdie4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warrdie4.wav; sourceTree = "<group>"; };
+		E9E7A0FF1B0A4C1800267EFD /* warrdie5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = warrdie5.wav; sourceTree = "<group>"; };
+		E9E7A1001B0A4C1800267EFD /* YetiAppear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = YetiAppear.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +241,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9E7A0941B0A497300267EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +256,8 @@
 			children = (
 				E9E7A0701B0A494E00267EFD /* Horror Watch */,
 				E9E7A0861B0A494E00267EFD /* Horror WatchTests */,
+				E9E7A0981B0A497300267EFD /* Horror Watch WatchKit Extension */,
+				E9E7A0A51B0A497300267EFD /* Horror Watch WatchKit App */,
 				E9E7A06F1B0A494E00267EFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +267,8 @@
 			children = (
 				E9E7A06E1B0A494E00267EFD /* Horror Watch.app */,
 				E9E7A0831B0A494E00267EFD /* Horror WatchTests.xctest */,
+				E9E7A0971B0A497300267EFD /* Horror Watch WatchKit Extension.appex */,
+				E9E7A0A11B0A497300267EFD /* Horror Watch WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +277,78 @@
 			isa = PBXGroup;
 			children = (
 				E9E7A0731B0A494E00267EFD /* AppDelegate.swift */,
+				E9E7A0B91B0A4C1700267EFD /* bacdeth1.wav */,
+				E9E7A0BA1B0A4C1700267EFD /* bacidle1.wav */,
+				E9E7A0BB1B0A4C1700267EFD /* bacsite2.wav */,
+				E9E7A0BC1B0A4C1700267EFD /* bgrapple_impact.wav */,
+				E9E7A0BD1B0A4C1700267EFD /* bodstrk12.wav */,
+				E9E7A0BE1B0A4C1700267EFD /* bodstrk13.wav */,
+				E9E7A0BF1B0A4C1700267EFD /* branchrp.wav */,
+				E9E7A0C01B0A4C1700267EFD /* chbmdie.wav */,
+				E9E7A0C11B0A4C1700267EFD /* chrtsght1.wav */,
+				E9E7A0C21B0A4C1700267EFD /* chrtwoun1.wav */,
+				E9E7A0C31B0A4C1700267EFD /* consbiop2.wav */,
+				E9E7A0C41B0A4C1700267EFD /* conschrp.wav */,
+				E9E7A0C51B0A4C1700267EFD /* conswoun1.wav */,
+				E9E7A0C61B0A4C1700267EFD /* conswoun2.wav */,
+				E9E7A0C71B0A4C1700267EFD /* singleroar.mp3 */,
+				E9E7A0C81B0A4C1700267EFD /* criticalDMG.wav */,
+				E9E7A0C91B0A4C1700267EFD /* DeamonDie.wav */,
+				E9E7A0CA1B0A4C1700267EFD /* Dragon00.wav */,
+				E9E7A0CB1B0A4C1700267EFD /* Dragon01.wav */,
+				E9E7A0CC1B0A4C1700267EFD /* Ghost.wav */,
+				E9E7A0CD1B0A4C1700267EFD /* growl1.wav */,
+				E9E7A0CE1B0A4C1700267EFD /* growl2.wav */,
+				E9E7A0CF1B0A4C1700267EFD /* HachaRanaOK.wav */,
+				E9E7A0D01B0A4C1700267EFD /* hell_knight_exhale02.wav */,
+				E9E7A0D11B0A4C1700267EFD /* Hell_Knight_Inhale02.wav */,
+				E9E7A0D21B0A4C1700267EFD /* hiss_beast_screech.mp3 */,
+				E9E7A0D31B0A4C1700267EFD /* HITGIBS.wav */,
+				E9E7A0D41B0A4C1700267EFD /* HKight_Attack_Melee01.wav */,
+				E9E7A0D51B0A4C1700267EFD /* hoppflap.wav */,
+				E9E7A0D61B0A4C1700267EFD /* hoppidle1.wav */,
+				E9E7A0D71B0A4C1800267EFD /* hoppidle2.wav */,
+				E9E7A0D81B0A4C1800267EFD /* hoppsght.wav */,
+				E9E7A0D91B0A4C1800267EFD /* malo2.wav */,
+				E9E7A0DA1B0A4C1800267EFD /* malo3.wav */,
+				E9E7A0DB1B0A4C1800267EFD /* malo4.wav */,
+				E9E7A0DC1B0A4C1800267EFD /* malo5.wav */,
+				E9E7A0DD1B0A4C1800267EFD /* MEET01_22.wav */,
+				E9E7A0DE1B0A4C1800267EFD /* Pain3.wav */,
+				E9E7A0DF1B0A4C1800267EFD /* PDMG_MORR1_44.wav */,
+				E9E7A0E01B0A4C1800267EFD /* PDMG_MORR2_44.wav */,
+				E9E7A0E11B0A4C1800267EFD /* pinky_drags_body_01.wav */,
+				E9E7A0E21B0A4C1800267EFD /* pinky_drags_body_02.wav */,
+				E9E7A0E31B0A4C1800267EFD /* plasdie.wav */,
+				E9E7A0E41B0A4C1800267EFD /* Poingigigi.wav */,
+				E9E7A0E51B0A4C1800267EFD /* quenchrp2.wav */,
+				E9E7A0E61B0A4C1800267EFD /* rhnodie.wav */,
+				E9E7A0E71B0A4C1800267EFD /* rhnosght.wav */,
+				E9E7A0E81B0A4C1800267EFD /* roywbite1.wav */,
+				E9E7A0E91B0A4C1800267EFD /* roywbite2.wav */,
+				E9E7A0EA1B0A4C1800267EFD /* roywdie1.wav */,
+				E9E7A0EB1B0A4C1800267EFD /* roywdie2.wav */,
+				E9E7A0EC1B0A4C1800267EFD /* roywdie3.wav */,
+				E9E7A0ED1B0A4C1800267EFD /* roywsght2.wav */,
+				E9E7A0EE1B0A4C1800267EFD /* ScreamHollow.wav */,
+				E9E7A0EF1B0A4C1800267EFD /* seadeth1.wav */,
+				E9E7A0F01B0A4C1800267EFD /* slicer5.wav */,
+				E9E7A0F11B0A4C1800267EFD /* slrun.wav */,
+				E9E7A0F21B0A4C1800267EFD /* spitdie.wav */,
+				E9E7A0F31B0A4C1800267EFD /* spitwoun1.wav */,
+				E9E7A0F41B0A4C1800267EFD /* spitwoun2.wav */,
+				E9E7A0F51B0A4C1800267EFD /* Swirl01.wav */,
+				E9E7A0F61B0A4C1800267EFD /* Swirl02.wav */,
+				E9E7A0F71B0A4C1800267EFD /* Swirl03.wav */,
+				E9E7A0F81B0A4C1800267EFD /* Swirl04.wav */,
+				E9E7A0F91B0A4C1800267EFD /* tankbrst.wav */,
+				E9E7A0FA1B0A4C1800267EFD /* tankwoun2.wav */,
+				E9E7A0FB1B0A4C1800267EFD /* teleon.wav */,
+				E9E7A0FC1B0A4C1800267EFD /* warrbite3.wav */,
+				E9E7A0FD1B0A4C1800267EFD /* warrdie3.wav */,
+				E9E7A0FE1B0A4C1800267EFD /* warrdie4.wav */,
+				E9E7A0FF1B0A4C1800267EFD /* warrdie5.wav */,
+				E9E7A1001B0A4C1800267EFD /* YetiAppear.wav */,
 				E9E7A0751B0A494E00267EFD /* ViewController.swift */,
 				E9E7A0771B0A494E00267EFD /* Main.storyboard */,
 				E9E7A07A1B0A494E00267EFD /* Images.xcassets */,
@@ -112,6 +383,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E9E7A0981B0A497300267EFD /* Horror Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A09B1B0A497300267EFD /* InterfaceController.swift */,
+				E9E7A0B71B0A4AB500267EFD /* PrankTableRow.swift */,
+				E9E7A09D1B0A497300267EFD /* Images.xcassets */,
+				E9E7A0991B0A497300267EFD /* Supporting Files */,
+			);
+			path = "Horror Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E9E7A0991B0A497300267EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A09A1B0A497300267EFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9E7A0A51B0A497300267EFD /* Horror Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0A81B0A497300267EFD /* Interface.storyboard */,
+				E9E7A0AB1B0A497300267EFD /* Images.xcassets */,
+				E9E7A0A61B0A497300267EFD /* Supporting Files */,
+			);
+			path = "Horror Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		E9E7A0A61B0A497300267EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7A0A71B0A497300267EFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +430,12 @@
 				E9E7A06A1B0A494E00267EFD /* Sources */,
 				E9E7A06B1B0A494E00267EFD /* Frameworks */,
 				E9E7A06C1B0A494E00267EFD /* Resources */,
+				E9E7A0B61B0A497300267EFD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E9E7A0AE1B0A497300267EFD /* PBXTargetDependency */,
 			);
 			name = "Horror Watch";
 			productName = "Horror Watch";
@@ -150,6 +460,39 @@
 			productReference = E9E7A0831B0A494E00267EFD /* Horror WatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E9E7A0961B0A497300267EFD /* Horror Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E7A0B31B0A497300267EFD /* Build configuration list for PBXNativeTarget "Horror Watch WatchKit Extension" */;
+			buildPhases = (
+				E9E7A0931B0A497300267EFD /* Sources */,
+				E9E7A0941B0A497300267EFD /* Frameworks */,
+				E9E7A0951B0A497300267EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E7A0A41B0A497300267EFD /* PBXTargetDependency */,
+			);
+			name = "Horror Watch WatchKit Extension";
+			productName = "Horror Watch WatchKit Extension";
+			productReference = E9E7A0971B0A497300267EFD /* Horror Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		E9E7A0A01B0A497300267EFD /* Horror Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E7A0B01B0A497300267EFD /* Build configuration list for PBXNativeTarget "Horror Watch WatchKit App" */;
+			buildPhases = (
+				E9E7A09F1B0A497300267EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Horror Watch WatchKit App";
+			productName = "Horror Watch WatchKit App";
+			productReference = E9E7A0A11B0A497300267EFD /* Horror Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +504,21 @@
 				TargetAttributes = {
 					E9E7A06D1B0A494E00267EFD = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					E9E7A0821B0A494E00267EFD = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = E9E7A06D1B0A494E00267EFD;
+					};
+					E9E7A0961B0A497300267EFD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E9E7A0A01B0A497300267EFD = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +537,8 @@
 			targets = (
 				E9E7A06D1B0A494E00267EFD /* Horror Watch */,
 				E9E7A0821B0A494E00267EFD /* Horror WatchTests */,
+				E9E7A0961B0A497300267EFD /* Horror Watch WatchKit Extension */,
+				E9E7A0A01B0A497300267EFD /* Horror Watch WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -192,9 +548,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E7A1241B0A4C1800267EFD /* malo5.wav in Resources */,
+				E9E7A13A1B0A4C1800267EFD /* spitdie.wav in Resources */,
+				E9E7A1261B0A4C1800267EFD /* Pain3.wav in Resources */,
+				E9E7A1351B0A4C1800267EFD /* roywsght2.wav in Resources */,
+				E9E7A1211B0A4C1800267EFD /* malo2.wav in Resources */,
+				E9E7A1171B0A4C1800267EFD /* HachaRanaOK.wav in Resources */,
+				E9E7A11E1B0A4C1800267EFD /* hoppidle1.wav in Resources */,
+				E9E7A11F1B0A4C1800267EFD /* hoppidle2.wav in Resources */,
+				E9E7A1271B0A4C1800267EFD /* PDMG_MORR1_44.wav in Resources */,
+				E9E7A1431B0A4C1800267EFD /* teleon.wav in Resources */,
+				E9E7A12E1B0A4C1800267EFD /* rhnodie.wav in Resources */,
+				E9E7A11C1B0A4C1800267EFD /* HKight_Attack_Melee01.wav in Resources */,
+				E9E7A12F1B0A4C1800267EFD /* rhnosght.wav in Resources */,
+				E9E7A11D1B0A4C1800267EFD /* hoppflap.wav in Resources */,
+				E9E7A12B1B0A4C1800267EFD /* plasdie.wav in Resources */,
+				E9E7A1371B0A4C1800267EFD /* seadeth1.wav in Resources */,
+				E9E7A1011B0A4C1800267EFD /* bacdeth1.wav in Resources */,
+				E9E7A12C1B0A4C1800267EFD /* Poingigigi.wav in Resources */,
+				E9E7A1061B0A4C1800267EFD /* bodstrk13.wav in Resources */,
+				E9E7A1481B0A4C1800267EFD /* YetiAppear.wav in Resources */,
+				E9E7A11B1B0A4C1800267EFD /* HITGIBS.wav in Resources */,
+				E9E7A1151B0A4C1800267EFD /* growl1.wav in Resources */,
+				E9E7A13C1B0A4C1800267EFD /* spitwoun2.wav in Resources */,
+				E9E7A1411B0A4C1800267EFD /* tankbrst.wav in Resources */,
+				E9E7A10E1B0A4C1800267EFD /* conswoun2.wav in Resources */,
+				E9E7A1101B0A4C1800267EFD /* criticalDMG.wav in Resources */,
+				E9E7A12D1B0A4C1800267EFD /* quenchrp2.wav in Resources */,
+				E9E7A10A1B0A4C1800267EFD /* chrtwoun1.wav in Resources */,
+				E9E7A1041B0A4C1800267EFD /* bgrapple_impact.wav in Resources */,
+				E9E7A13D1B0A4C1800267EFD /* Swirl01.wav in Resources */,
+				E9E7A1131B0A4C1800267EFD /* Dragon01.wav in Resources */,
+				E9E7A1441B0A4C1800267EFD /* warrbite3.wav in Resources */,
+				E9E7A1391B0A4C1800267EFD /* slrun.wav in Resources */,
+				E9E7A1341B0A4C1800267EFD /* roywdie3.wav in Resources */,
+				E9E7A1331B0A4C1800267EFD /* roywdie2.wav in Resources */,
+				E9E7A1141B0A4C1800267EFD /* Ghost.wav in Resources */,
+				E9E7A1221B0A4C1800267EFD /* malo3.wav in Resources */,
+				E9E7A1361B0A4C1800267EFD /* ScreamHollow.wav in Resources */,
+				E9E7A10F1B0A4C1800267EFD /* singleroar.mp3 in Resources */,
+				E9E7A1121B0A4C1800267EFD /* Dragon00.wav in Resources */,
+				E9E7A1301B0A4C1800267EFD /* roywbite1.wav in Resources */,
+				E9E7A1111B0A4C1800267EFD /* DeamonDie.wav in Resources */,
+				E9E7A1231B0A4C1800267EFD /* malo4.wav in Resources */,
+				E9E7A1031B0A4C1800267EFD /* bacsite2.wav in Resources */,
+				E9E7A11A1B0A4C1800267EFD /* hiss_beast_screech.mp3 in Resources */,
 				E9E7A0791B0A494E00267EFD /* Main.storyboard in Resources */,
+				E9E7A1471B0A4C1800267EFD /* warrdie5.wav in Resources */,
+				E9E7A1201B0A4C1800267EFD /* hoppsght.wav in Resources */,
+				E9E7A1461B0A4C1800267EFD /* warrdie4.wav in Resources */,
+				E9E7A1161B0A4C1800267EFD /* growl2.wav in Resources */,
+				E9E7A10D1B0A4C1800267EFD /* conswoun1.wav in Resources */,
+				E9E7A10B1B0A4C1800267EFD /* consbiop2.wav in Resources */,
+				E9E7A13F1B0A4C1800267EFD /* Swirl03.wav in Resources */,
+				E9E7A13E1B0A4C1800267EFD /* Swirl02.wav in Resources */,
+				E9E7A1091B0A4C1800267EFD /* chrtsght1.wav in Resources */,
+				E9E7A1021B0A4C1800267EFD /* bacidle1.wav in Resources */,
+				E9E7A1401B0A4C1800267EFD /* Swirl04.wav in Resources */,
+				E9E7A1421B0A4C1800267EFD /* tankwoun2.wav in Resources */,
+				E9E7A12A1B0A4C1800267EFD /* pinky_drags_body_02.wav in Resources */,
+				E9E7A1071B0A4C1800267EFD /* branchrp.wav in Resources */,
+				E9E7A1251B0A4C1800267EFD /* MEET01_22.wav in Resources */,
+				E9E7A13B1B0A4C1800267EFD /* spitwoun1.wav in Resources */,
+				E9E7A1291B0A4C1800267EFD /* pinky_drags_body_01.wav in Resources */,
+				E9E7A1051B0A4C1800267EFD /* bodstrk12.wav in Resources */,
+				E9E7A1311B0A4C1800267EFD /* roywbite2.wav in Resources */,
+				E9E7A1321B0A4C1800267EFD /* roywdie1.wav in Resources */,
 				E9E7A07E1B0A494E00267EFD /* LaunchScreen.xib in Resources */,
+				E9E7A1281B0A4C1800267EFD /* PDMG_MORR2_44.wav in Resources */,
+				E9E7A1451B0A4C1800267EFD /* warrdie3.wav in Resources */,
+				E9E7A1081B0A4C1800267EFD /* chbmdie.wav in Resources */,
+				E9E7A1381B0A4C1800267EFD /* slicer5.wav in Resources */,
+				E9E7A1181B0A4C1800267EFD /* hell_knight_exhale02.wav in Resources */,
 				E9E7A07B1B0A494E00267EFD /* Images.xcassets in Resources */,
+				E9E7A10C1B0A4C1800267EFD /* conschrp.wav in Resources */,
+				E9E7A1191B0A4C1800267EFD /* Hell_Knight_Inhale02.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +630,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E7A0951B0A497300267EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E7A09E1B0A497300267EFD /* Images.xcassets in Resources */,
+				E9E7A0A21B0A497300267EFD /* Horror Watch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E7A09F1B0A497300267EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E7A0AA1B0A497300267EFD /* Interface.storyboard in Resources */,
+				E9E7A0AC1B0A497300267EFD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +671,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9E7A0931B0A497300267EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E7A0B81B0A4AB500267EFD /* PrankTableRow.swift in Sources */,
+				E9E7A09C1B0A497300267EFD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +687,16 @@
 			isa = PBXTargetDependency;
 			target = E9E7A06D1B0A494E00267EFD /* Horror Watch */;
 			targetProxy = E9E7A0841B0A494E00267EFD /* PBXContainerItemProxy */;
+		};
+		E9E7A0A41B0A497300267EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E7A0A01B0A497300267EFD /* Horror Watch WatchKit App */;
+			targetProxy = E9E7A0A31B0A497300267EFD /* PBXContainerItemProxy */;
+		};
+		E9E7A0AE1B0A497300267EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E7A0961B0A497300267EFD /* Horror Watch WatchKit Extension */;
+			targetProxy = E9E7A0AD1B0A497300267EFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +715,14 @@
 				E9E7A07D1B0A494E00267EFD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E9E7A0A81B0A497300267EFD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E7A0A91B0A497300267EFD /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,9 +809,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Damien Sutevski (67HNF3PCKJ)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Horror Watch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a60490b-910b-4406-8650-5e0a92ab552f";
 			};
 			name = Debug;
 		};
@@ -346,9 +822,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Damien Sutevski (67HNF3PCKJ)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Horror Watch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a60490b-910b-4406-8650-5e0a92ab552f";
 			};
 			name = Release;
 		};
@@ -386,6 +865,64 @@
 			};
 			name = Release;
 		};
+		E9E7A0B11B0A497300267EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Horror_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Horror Watch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		E9E7A0B21B0A497300267EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Horror_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Horror Watch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		E9E7A0B41B0A497300267EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Damien Sutevski (67HNF3PCKJ)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Horror Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "412e6596-952d-4a8c-b905-2a5bc29598cb";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9E7A0B51B0A497300267EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Damien Sutevski (67HNF3PCKJ)";
+				INFOPLIST_FILE = "Horror Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "412e6596-952d-4a8c-b905-2a5bc29598cb";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +942,7 @@
 				E9E7A08F1B0A494E00267EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9E7A0901B0A494E00267EFD /* Build configuration list for PBXNativeTarget "Horror WatchTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +951,25 @@
 				E9E7A0921B0A494E00267EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E7A0B01B0A497300267EFD /* Build configuration list for PBXNativeTarget "Horror Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E7A0B11B0A497300267EFD /* Debug */,
+				E9E7A0B21B0A497300267EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E7A0B31B0A497300267EFD /* Build configuration list for PBXNativeTarget "Horror Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E7A0B41B0A497300267EFD /* Debug */,
+				E9E7A0B51B0A497300267EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
